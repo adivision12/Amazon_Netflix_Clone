@@ -1,0 +1,267 @@
+body{
+    background-color:rgb(53, 49, 49);
+    color: white;
+}
+.page1{
+    background-color: black;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url(https://assets.nflxext.com/ffe/siteui/vlv3/a1dc92ca-091d-4ca9-a05b-8cd44bbfce6a/f9368347-e982-4856-a5a4-396796381f28/RS-en-20191230-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+}
+.nav{
+    display: flex;
+
+}
+
+.logo{
+    color: red;
+    position: absolute;
+    left: 100px;
+}
+.sign{
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: red;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: white;
+}
+
+.select{
+    margin-top: 20px;
+    background: transparent;
+    color: white;
+    width: 100px;
+    height: 45px;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 10px;
+    position: absolute;
+    right: 250px;
+}
+option{
+    color: black;
+}
+
+.home{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header{
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.input{
+    height: 40px;
+    width: 90%;
+    padding: 20px;
+    display: inline-flex;
+    flex-direction: row;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 200%;
+}
+
+.btn{
+    height: 65px;
+    /* border: 2px solid black; */
+    width: 40rem;
+    background-color: red;
+    font-size: 35px;
+    font-weight: 900;
+    color: white;
+    padding: 10px;
+    
+}
+
+.con{
+    display: flex;
+    flex-direction: row;
+}
+
+.p{
+    font-size: 1.2rem;
+    align-items: center;
+
+}
+
+.page2,.page3,.page4{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    margin-top: .7rem;
+    
+}
+
+.row1,.page4-r1{
+    margin: 90px;
+}
+.img{
+    height: 25rem;
+    
+}
+.head2{
+    font-size: 3rem;
+}
+.head3 ,.page4-head2{
+    font-size: 1.4rem;
+}
+
+.page3-head,.page4-head{
+    margin-top: 20%;
+    font-size: 3.2rem;
+}
+.img2,.img3{
+    height: 20rem;
+    margin-top: 10%;
+}
+
+.f-1,.f-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    /* text-align: center; */
+
+}
+.f-head{
+    font-size: 2.5rem;
+    /* text-align: center; */
+}
+
+.term{
+    background-color: rgb(53, 49, 49);
+    height: 45px;
+    width: 100%;
+    font-size: 2rem;
+    padding: 15px;
+}
+
+.term i{
+   position: absolute;
+   right: 23rem;
+   
+}
+.f-input{
+    height: 30px;
+    width: 90%;
+    padding: 20px;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.f-btn{
+    height: 55px;
+    width: 60%;
+    background-color: red;
+    font-size: 150%;
+    font-weight: 900;
+    color: white;
+    padding: 10px;
+    
+}
+
+.ul{
+    list-style: none;
+}
+.f{
+    background-color: black;
+}
+.ul li{
+    margin-top: 20px;
+}
+
+@media (min-width:250px) and ( max-width:950px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .home{
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        position: absolute;
+        right:20% ;
+        left: 40px;
+    }
+    .con{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .header{
+        font-size: 30px;
+    }
+    .logo{
+        left: 30px;
+    }
+    
+    .input{
+        height: 30px;
+        width: 50%;
+        padding: 13px;
+        display: inline-flex;
+        flex-direction: column;
+        font-size: 100%;
+    }
+    
+    .btn{
+        height: 10%;
+        width: 40%;
+        background-color: red;
+        font-size: 15px;
+        font-weight: 900;
+        color: white;
+        margin: 10px;
+    }  
+    .select{
+        display: none;
+    }
+    .sign{
+        right: 10px;
+    }
+    .page2,.page3,.page4{
+        display: flex;
+        flex-direction: column;  
+        justify-content: center;
+         align-items: center;
+    }
+.img{
+    height: 15rem;
+    
+}
+.head2{
+    font-size: 2rem;
+}
+.head3 ,.page4-head2{
+    font-size: 1rem;
+}
+
+.page3-head,.page4-head{
+    font-size: 2rem;
+}
+.img2,.img3{
+    min-height: 10rem;
+}
+.term i{
+    display: none;
+}
+.term{
+    font-size: 1.5rem;
+}
+.f-btn{
+    margin-top: 10px;
+}
+}
